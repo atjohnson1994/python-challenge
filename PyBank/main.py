@@ -92,7 +92,7 @@ print("Greatest Decrease in Profits: " + str(dec_date) + " " + "(" + str(dec_amo
 
 
 # Output file
-output_file = os.path.join("Financial Analysis")
+output_file = os.path.join("analysis", "Financial Analysis")
 # Open output file
 with open(output_file, "w") as analysis:
     
