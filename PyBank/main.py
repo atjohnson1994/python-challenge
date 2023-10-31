@@ -44,9 +44,6 @@ while i < amount_length:
     change.append(difference)
     i = i + 1
 
-# Zip the lists
-budgetzip = zip(date, amount_int, change)
-
 # Calculate net profit/loss
 total = sum(amount_int)
 
